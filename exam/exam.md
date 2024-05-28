@@ -22,6 +22,8 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 # The Exam
 
-![](../umls/route.png)
+Nothing here yet.
 
-[widgets.csv](../data/widgets.csv)
+<!-- ![](../umls/route.png)
+
+[widgets.csv](../data/widgets.csv) -->
