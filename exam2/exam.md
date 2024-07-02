@@ -24,7 +24,7 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 Nothing here yet...
 
-<!-- ## Part 1: OOP
+## Part 1: OOP
 
 You are tasked with creating a simple school management system for a highschool. To do this, you will implement two classes: `Student` and `Classroom`. `Student` contains all information about a student, such as their name, student ID, and their grades. The `Classroom` class contains information about a group of students, such as the name of the classroom and the students that are in that classroom.
 
@@ -259,4 +259,4 @@ Which should print:
 
   Which should print:
 
-  ['Bella', 'Luna', 'Milo'] -->
+  ['Bella', 'Luna', 'Milo']
