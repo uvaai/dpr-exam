@@ -82,6 +82,22 @@ Test your code by running the code below:
     print()
     classroom.print_summary()
 
+Which should print the following:
+
+    Printing Alice's summary, who's average should be a 7.8:
+    Alice (ID: S123456) - Average Grade: 7.8
+
+    Printing Bob's summary, who's average should be a 7.6:
+    Bob (ID: S213892) - Average Grade: 7.6
+
+    Classroom Juniors (avg: 7.5) has the following students:
+    Alice (ID: S123456) - Average Grade: 7.8
+    Bob (ID: S213892) - Average Grade: 7.2
+
+    Classroom Juniors (avg: 7.8) has the following students:
+    Alice (ID: S123456) - Average Grade: 7.8
+
+
 ## Part 2: Pandas
 
 For this assignment, you will use the file [cameras.csv](../data/cameras.csv). This file contains camera's from different brands from 1994 to 2008. The contents of the file looks as follows:
