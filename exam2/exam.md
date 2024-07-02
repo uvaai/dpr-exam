@@ -22,8 +22,6 @@ This exam consists of 3 parts. Each of the parts can be made separately and are 
 
 # The Exam
 
-Nothing here yet...
-
 ## Part 1: OOP
 
 You are tasked with creating a simple school management system for a highschool. To do this, you will implement two classes: `Student` and `Classroom`. `Student` contains all information about a student, such as their name, student ID, and their grades. The `Classroom` class contains information about a group of students, such as the name of the classroom and the students that are in that classroom.
@@ -105,7 +103,7 @@ Load the data into a `DataFrame` named `df` using pandas. Print the `DataFrame` 
 
 Printing the `DataFrame` should show you:
 
-    Model  Release date  ...  Dimensions   Price
+                           Model  Release date  ...  Dimensions   Price
     0           Agfa ePhoto 1280          1997  ...        95.0   179.0
     1           Agfa ePhoto 1680          1998  ...       158.0   179.0
     2           Agfa ePhoto CL18          2000  ...         0.0   179.0
@@ -131,7 +129,7 @@ Find the most expensive camera in the dataset and print its name and price. Your
 
 This dataset has quite a lot of missing values. Remove all rows for which the weight equals 0.0, and store the result into `df`. Your result should have 1017 rows (21 rows are removed). Printing the `DataFrame` should show:
 
-    Model  Release date  ...  Dimensions   Price
+                           Model  Release date  ...  Dimensions   Price
     0           Agfa ePhoto 1280          1997  ...        95.0   179.0
     1           Agfa ePhoto 1680          1998  ...       158.0   179.0
     4     Agfa ePhoto CL30 Clik!          1999  ...       128.0  1299.0
@@ -150,7 +148,7 @@ This dataset has quite a lot of missing values. Remove all rows for which the we
 
 Calculate the price per gram for each camera, and store the result in a column named `'PPG'`. Then, sort the `DataFrame` on this column from the highest PPG to the lowest, and print the top 10 most expensive (by weight) cameras.
 
-    Model  Release date  ...   Price        PPG
+                             Model  Release date  ...   Price        PPG
     825           Ricoh GR Digital          2005  ...  4999.0  24.995000
     834             Ricoh RDC-i500          2001  ...  4999.0  15.621875
     612              Olympus D-435          2005  ...  1699.0  12.135714
@@ -168,20 +166,7 @@ Calculate the price per gram for each camera, and store the result in a column n
 
 The `'Model'` column in this dataset contains more information than purely the model; it also contains the brand of the camera. Create a new column named `'Brand'` containing the brand of each camera. You may assume the brand is always the very first word in the `Model` column. Printing the `DataFrame` should show:
 
-    Model  Release date  ...   Price        PPG
-    825           Ricoh GR Digital          2005  ...  4999.0  24.995000
-    834             Ricoh RDC-i500          2001  ...  4999.0  15.621875
-    612              Olympus D-435          2005  ...  1699.0  12.135714
-    457         Kyocera Finecam S3          2001  ...  1699.0  10.618750
-    696    Panasonic Lumix DMC-FX2          2004  ...  1499.0  10.128378
-    611              Olympus D-425          2005  ...  1699.0   9.994118
-    694  Panasonic Lumix DMC-FX100          2007  ...  1499.0   9.993333
-    703    Panasonic Lumix DMC-FX7          2004  ...  1499.0   9.797386
-    460        Kyocera Finecam S3x          2002  ...  1699.0   9.708571
-    461         Kyocera Finecam S4          2002  ...  1699.0   9.708571
-
-    [10 rows x 14 columns]
-    Model  Release date  ...        PPG      Brand
+                           Model  Release date  ...        PPG      Brand
     825         Ricoh GR Digital          2005  ...  24.995000      Ricoh
     834           Ricoh RDC-i500          2001  ...  15.621875      Ricoh
     612            Olympus D-435          2005  ...  12.135714    Olympus
